@@ -1005,247 +1005,643 @@ function submit(){
         // dc combination
 
         if(psychic_number == "1" && destiny_number == "1"){
-            document.getElementById("pd_combination_description").textContent = "You have a very good combination of Psychic number and Destiny number. You are a born leader. Your ego is little high. You are a self sufficient person you do not need any sort of support-system in life. In conslusion, you have a royal and king-like attitude, and you want to be the only boss in life."
+            document.getElementById("pd_combination_description").textContent = "You have a very good combination of Psychic number and Destiny number. You are a born leader. Your ego is a little high. You are a self sufficient person you do not need any sort of support-system in life. In conclusion, you have a royal and king-like attitude, and you want to be the only boss in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
         }
         if(psychic_number == "1" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are a born leader. Your ego is a little high but you do not show it to others. You sound very cool and calm. You have an attractive personality. You have a flickering mind set, it means your mind changes and fluctuates frequently. You are sensitive in nature as well."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8, 9"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
         }
         if(psychic_number == "1" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "You have a very good combination of Psychic number and Destiny number. You are a born leader. You are always curious for knowledge. You have good creativity and imagination. Sometimes your ego is a little high as you are very knowledgeable but by heart and nature you are emotional."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
         }
         if(psychic_number == "1" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are a born leader. Your ego is a little high. You are a self-sufficient person and you do not need any sort of support-system in life. You are very logical and organized. By nature you are very rebellious and argumentative. It can be said, you are very stubborn in nature."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
         }
         if(psychic_number == "1" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "You have a very good combination of Psychic number and Destiny number. You are a born leader. Your ego is a little high. Your communication skills are good. You are popular in your friend-circle. It can be said, you are a good entertainer. You can be a little lazy sometimes. You are always young at heart."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
         }
         if(psychic_number == "1" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "You have a very good combination of Psychic number and Destiny number. You are a born leader. You have a very powerful aura. You are very sweet-spoken and romantic . You are manipulative in nature but supportive too at times. You are always surrounded by name, fame and money. You can lie very easily. You are tempted towards luxury all the time."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
         }
         if(psychic_number == "1" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. If supportive numbers are present in your date of birth, then you would succeed in life. You are creative. You have wisdom. You have art to solve any issue. Your imagination powers and intuition powers are very good. You are interested in spirituality. You are soft-spoken. You will have some kind of disappointment in life which can lead you towards depression. So you need to be careful for that."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
         }
         if(psychic_number == "1" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "You have an anti combination of Psychic number and Destiny number. If supportive numbers are present in your date of birth, then it is good, otherwise, you would lead a life full of ups and downs. You need to work very hard to achienve success. Most of the time, you would struggle in your life. You might have health issues or relationship issues as well."        
+            document.getElementById("lucky_no").textContent = "Lucky No. : 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 1, 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Red, Black"
         }
         if(psychic_number == "1" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 1 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "You have a very good combination of Psychic number and Destiny number. You are a born leader. Your ego is a little high. You are very strong mentally and physically, no one can win you by any force. You are like a soldier. You are compassionate in nature. Sometimes, you are short tempered too. You are driven by your mood only."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "2" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You have a very good appearance. Your mind swings a lot; it means you have a flickering mind set and you are very moody. Your imagination and intuition powers are good. If you have support in life, no one can stop you from achieving success in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8, 9"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "2" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "You have a weak combination of Psychic number and Destiny number. You are very sensitive and emotional. Your mind swings a lot; it means you have a flickering mind set and you are very moody. Your imagination and intuition powers are good. Sometimes, there are chances for you to get depressed very easily in life. You always need someone's support in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8, 9"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+    
         }
         if(psychic_number == "2" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very sensitive and emotional. You are very moody. Your imagination and intuition powers are good. You have good creativity and knowledge. You are a soft-spoken person."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "2" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very moody. Sometimes you are short tempered too. If other supportive numbers are missing in your date of birth, you would face ups and downs in your life. You may face relationship issues in life. You might have to struggle a little for success."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8, 9"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "2" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are sensitive and emotional in nature. You have good communication skills. Your imagination and intuition powers are good. You are foody. Sometimes, it is found that these people are chubby and lazy."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8, 9"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "2" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You moods change a lot. You are sweet-spoken. You are romantic. You always seek attraction in life. You are family oriented and foody."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "2" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "You have a weak combination of Psychic number and Destiny number. You are very sensitive and emotional. Your mind swings a lot; it means you have a flickering mind set and you are very moody. Your imagination and intuition powers are good. Sometimes, there are chances of you getting depressed very esaily. You always need someone's support in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 8, 9"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "2" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "You have an anti combination of Psychic number and Destiny number. You would face ups and downs in your life. You need to work very hard to achieve success. Most of the time, you would face struggle in your life. You might have health issues or relationship issues. You may face struggle in your career too."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 1, 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Red, Black"
+
         }
         if(psychic_number == "2" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 2 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You would face ups and downs in your life. You are moody in nature. Most of the time, you would face struggle in your life. You might have health issues or relationship issues."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "3" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are royal in nature. You have good knowledge and creative skills. You are never a follower in life. With the help of your knowledge, you reach a high position in life. Sometimes your ego is a little high. You are very knowledgeable. By nature, you are emotional."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You have good knowledge and creative skills. You are sensitive and very emotional. You are very intelligent. You are moody and have a flickering mind set. So, you always need support in life and with that support you may reach great heights in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You have good knowledge and creative skills. You are sensitive and very emotional. You are very intelligent. You have good communication skills. Sometimes, you try to break the conventional rules of the society."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 6"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You have good knowledge and creative skills. You are organized and intelligent. You get angry easily. You are practical and hard working. If you don't work hard, you may face struggle in your life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 4, 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You have good knowledge and creative skills. You are sensitive and very emotional. Sometimes you might even be lazy. You have good communication skills and you are intelligent."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 6"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "You have an anti combination of Psychic number and Destiny number. You would face ups and downs in your life. Most of the time there is struggle in your life. Though you are intelligent and you may have good achievements or luxury in your life but you might have health issues or relationship issues too. You would face struggle in your life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 6"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White, Yellow"
+
         }
         if(psychic_number == "3" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You have good knowledge and creative skills. With the help of your knowledge you may reach great heights in your life . You are interested in spirituality. Your imagination and intuition powers are good. You are very emotional. Therefore, sometimes there are chances for you to get depressed very easily."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 7"
+            document.getElementById("bad_no").textContent = "Bad No. : 6"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You have good knowledge and creative skills. If supportive numbers are present in your date of birth, then its good, otherwise, you would face ups and down in your life. You need to work very hard to achieve success. You are intelligent but if you do not work hard, you may face struggle in your life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 1, 2, 4, 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Red, Black, White"
+
         }
         if(psychic_number == "3" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 3 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You have good knowledge and creative skills. You are emotional and compassionate in nature. Sometimes you are shortetempered as well. You are driven by your mood. Sometimes your ego is a little high. You are very knowledgeable. By nature you are emotional."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 3, 6"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "4" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very logical and organized. By nature you are very rebellious and argumentative. It can be said, you are very stubborn. If you work hard, no one can stop you to achieve success. You never follow anyone in life. You are very intelligent."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "4" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very logical and intelligent. By nature you are very rebellious and argumentative. Your mind keeps fluctuating frequently. You might face some struggle in your life. Sometimes you may even fall in depression."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "4" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very logical. By nature you are very rebellious and argumentative. You have good knowledge and creative skills. You are organized and intelligent. With the help of your knowledge and hard work you can achieve success in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 6, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, White"
+
         }
         if(psychic_number == "4" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very logical and practical. By nature you are very rebellious and argumentative. You get angry easily. You might face some struggle in your life. Sometimes, you might even face legal issues or controversies in life. You only need to work hard in order to achieve success in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "4" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are very logical and practical. You are self accountable and self responsible in life. You are a risk taker. You are intelligent. If you work hard, you will definitely achieve success."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "4" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are very logical and practical. You are romantic. You always seek attraction in life. You are manipulative in nature but supportive too. You are always surrounded by name, fame and money. You can lie easily and you are tempted towards luxury very often."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 3, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "4" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "You have a good combination of Psychic number and Destiny number. You are very logical and practical. You have good knowledge and creative skills. Your imagination and intuition powers are good. You are emotional. Therefore, sometimes, you might face disappointment and get depressed very easily."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "4" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very logical and practical. By nature you are very rebellious and argumentative. You get angry easily. You might face some struggle in your life. Sometimes, you might even face legal issues or controversies in life. You only need to work hard in order to achieve success in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "4" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 4 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "You have an average combination of Psychic number and Destiny number. You are very logical and practical. You are physically strong. You are compassionate in nature. Sometimes you are short-tempered. You might have some health issues in life. If supportive numbers are missing in your date of birth, you might face some struggle in life."
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 2, 4, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 1"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 2"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 3"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 4"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 5"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 6"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 7"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 8"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "5" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "P = 5 ; D = 9"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "6" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 1"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 2"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 3"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 4"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
         }
         if(psychic_number == "6" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 5"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 6"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 7"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 8"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "6" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "P = 6 ; D = 9"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 3, 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black, Yellow"
+
         }
         if(psychic_number == "7" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 1"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 2"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 3"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 4"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 5"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 6"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 7"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 8"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "7" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "P = 7 ; D = 9"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 1"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 2"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 3"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 8; D = 4"
+            document.getElementById("pd_combination_description").textContent = "P = 8; D = 4"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 5"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 6"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "7"){
             document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 7"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 8"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "8" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "P = 8 ; D = 9"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "1"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 1"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 1"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "2"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 2"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 2"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "3"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 3"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 3"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "4"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 4"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 4"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "5"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 5"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 5"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "6"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 6"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 6"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "7"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 7"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 7"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "8"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 8"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 8"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
         if(psychic_number == "9" && destiny_number == "9"){
-                document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 9"
+            document.getElementById("pd_combination_description").textContent = "P = 9 ; D = 9"
+            document.getElementById("lucky_no").textContent = "Lucky No. : 1, 3, 5, 6"
+            document.getElementById("bad_no").textContent = "Bad No. : 8"
+            document.getElementById("lucky_colour").textContent = "Lucky Colours : Red, Yellow, Green, White"
+            document.getElementById("bad_colour").textContent = "Bad Colours : Black"
+
         }
 
         //name numerology

@@ -53,7 +53,6 @@ a:visited {
 
 .facebook {
   padding: 5px;
-  width: 50px;
   text-align: center;
   text-decoration:none;
   vertical-align: middle;
@@ -790,7 +789,7 @@ section.home {
 }
 
 .result_box{
-  /*display: none;*/
+  display: none;
 }
 
 @media all and (min-width : 760px){
@@ -907,6 +906,8 @@ section.home {
   font-size: 25px;
   padding-top: 20px;
   padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right : 10px;
 }
 
 .first_name_text, .full_name_text{
@@ -930,5 +931,247 @@ section.home {
     display: block;
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+#click_here_text{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #002a08;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+#click_here_button{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 5px;
+  background-color: #002a08;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#click_here_button:hover{
+  background-color: #002a08e6;
+}
+
+#lucky_no, #bad_no{
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #002a08;
+  margin-inline: 25px;
+}
+
+#lucky_no {
+  padding-top: 7px;
+}
+
+#bad_no{
+  padding-bottom: 10px;
+}
+
+#lucky_colour, #bad_colour{
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #002a08;
+  margin-inline: 25px;
+}
+
+footer {
+  background-color:#002a08;
+  padding: 7px;
+}
+
+.footer_container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#footer_text {
+  text-align: center;
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 10;
+}
+
+.contact{
+  background-image: url("bg1.jpg");
+  background-size: cover;
+  border-collapse: collapse; 
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  margin-bottom: -30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #002a08;
+}
+
+#get_in_touch{
+  font-size: 50px;
+  padding-top: 50px;
+  letter-spacing: -2px;
+  padding-bottom: 10px;
+  align-self: right;
+  margin-left: 60px;
+}
+
+.left_part, .right_part{
+  display: inline-block;
+}
+
+#contact_name{
+  margin-left: 0px;
+}
+
+.underline_name, .underline_follow_me{
+  background-color: #2a2a2a;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 20px;
+}
+
+.left_part{
+  padding-left: 60px;
+  padding-right: 100px;
+  width: 60vw;
+  vertical-align: top;
+}
+
+#contact_img, #feel_free{
+  display: inline-block;
+}
+
+#contact_img {
+  height: 100px;
+  width : 100px;
+  margin-right: 30px;
+  border-radius: 100px;
+  border: 3px solid rgb(28, 6, 6);
+  margin-bottom: 20px;
+}
+
+#feel_free{
+  font-size: 20px;
+}
+
+.right_part{
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 30vw;
+}
+
+#let_us_be_social{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#contact_us{
+  font-size: 50px;
+  padding-top: 50px;
+  letter-spacing: -2px;
+  padding-bottom: 10px;
+  align-self: right;
+  margin-left: 60px;
+}
+
+.email_text{
+  text-decoration:none;
+  color: #000;
+}
+
+.email_text:visited{
+  color: black;
+}
+
+.email_text:hover{
+  text-decoration:none;
+  color: #000;
+}
+
+#email{
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.call_text{
+  text-decoration:none;
+  color: #000;
+}
+
+.call_text:visited{
+  color: black;
+}
+
+.call_text:hover{
+  text-decoration:none;
+  color: #000;
+}
+
+#call{
+  margin-left: 60px;
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+
+@media all and (min-width : 916px) and (max-width : 972px){
+  .right_part{
+    padding-right: 30px;
+  }
+}
+
+@media all and (min-width : 320px) and (max-width : 915px){
+  .left_part, .right_part, .contact_us_div{
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  
+  #contact_name, #follow_me{
+    margin-top: 50px;
+  }
+  
+  #contact_img{
+    margin-right: 0px;
+  }
+
+  #contact_us, #email, #call, .email_text, .call_text{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  #email{
+    margin-top: 40px;
+  }
+
+  #get_in_touch{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+}
+
+@media all and (min-width : 320px) and (max-width : 350px){
+  #email, #call{
+    font-size: 15px;
   }
 }
